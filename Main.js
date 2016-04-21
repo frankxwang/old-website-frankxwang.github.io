@@ -1,5 +1,6 @@
-while(1==1){
-window.alert("hi");
+while(true){
+
 console.log("hia");
 print();  
+window.alert("hi");
 }
