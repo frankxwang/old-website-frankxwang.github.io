@@ -1,7 +1,7 @@
 //while(true){
 
-console.log("hia");
+//console.log("hia");
 //print();  
 //window.alert("Get Trolled");
-window.open('http://thegithubgeek.github.io/','_blank')
+//window.open('http://thegithubgeek.github.io/','_blank')
 //}
