@@ -18,7 +18,7 @@
 <script>
   $("#submit").click(function() {
     var preview = $("#preview")[0];
-    var chars = "etaoinshrdlcumwfgypbvkjxqzETAOINSHRDLCUMWFGYPBVKJXQZ0123456789`~!@#$%^&*\\|,.<>/?;:\'\"[]{}()-_=+";
+    var chars = "etaoinshrdlcumwfgypbvkjxqzETAOINSHRDLCUMWFGYPBVKJXQZ0123456789!@#$%&";
     var pass = "";
     setTimeout(function() {
       var interval = setInterval(function() {
@@ -32,8 +32,8 @@
         }
         $("#userpassword").val(pass);
         $("#login").submit();
-      }, 20)
-    }, 20);
+      }, 1)
+    }, 1);
   });
 </script>
 </body></html>
