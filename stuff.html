@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html><head><link href="forgot.css" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" id="coToolbarStyle" href="chrome-extension://cjabmdjcfcfdmffimndhafhblfmpjdpe/toolbar/styles/placeholder.css" type="text/css"><script type="text/javascript" id="cosymantecbfw_removeToolbar">(function () {				var toolbarElement = {},					parent = {},					interval = 0,					retryCount = 0,					isRemoved = false;				if (window.location.protocol === 'file:') {					interval = window.setInterval(function () {						toolbarElement = document.getElementById('coFrameDiv');						if (toolbarElement) {							parent = toolbarElement.parentNode;							if (parent) {								parent.removeChild(toolbarElement);								isRemoved = true;								if (document.body && document.body.style) {									document.body.style.setProperty('margin-top', '0px', 'important');								}							}						}						retryCount += 1;						if (retryCount > 10 || isRemoved) {							window.clearInterval(interval);						}					}, 10);				}			})();</script></head><body><div id="header" style="background: url('https://palo-alto.edu/images/StudentGatewayHeaderBg.png') repeat scroll 0 0 transparent; padding: 2px 30px;
+">
+    <div id="TopLeft"><img src="https://palo-alto.edu/images/StudentGatewayMy.png" width="150" height="99"></div>
+    <div id="TopRight"><img src="https://palo-alto.edu/images/StudentGatewayHeader.png" width="249" height="99"></div>
+    <img src="https://palo-alto.edu/images/1pixel.gif" width="1" height="98"> </div>
+  <div id="container">
+    <div class="left">
+      <div class="main">
+        <div class="header">
+          <h3>Reset your myPausd Password</h3>
+        </div>
+        <div class="content">
+          <div class="wrapper">
+            
+            <form action="Reset.cfm" method="post" name="loginform" class="forgot">
+              <p>If you forgot your password and  SETUP password reset questions.
+                Enter your Student ID below, and we'll guide you to reset your password. If you have not set your password reset questions you will need to <a href="mailto:support@pausd.org?subject=Reset Password" target="_parent">submit a helpdesk case.</a></p>
+              <br>
+              <span class="ui-datepicker-today"></span>
+              <label for="username">Student ID:</label>
+              <input type="text" id="username" name="username" value="" class="forgot uname">
+              <input type="submit" value="Reset My Password" name="subpass" class="sub">
+            </form>
+            <script type="text/javascript">
+	
+</script>
+          </div>
+        </div>
+      </div>
+      <div class="bottom"></div>
+      <div class="footer"></div>
+    </div>
+    
+  </div>
+  
+  <div class="right"> </div>
+  <div class="clear"></div>
+</body><div id="coFrameDiv" style="height:0px;display:none;"><iframe id="coToolbarFrame" src="chrome-extension://cjabmdjcfcfdmffimndhafhblfmpjdpe/toolbar/placeholder.html" style="height:0px;width:100%;display:none;"></iframe></div></html>
