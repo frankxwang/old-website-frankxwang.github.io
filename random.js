@@ -5,4 +5,4 @@ var m = 13487650879;
 setTimeout(function(){
   seed = (a*seed + b) % m;
   console.log(seed);
- },2000);
+ },200);
