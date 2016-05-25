@@ -6,7 +6,7 @@ function generate(){
   seed = (a*seed + b) % m;
   console.log(seed);
   console.log("Random");
-  setTimeout(generate(), 1000);
+  setTimeout(generate(), 10000);
 }
 generate();
 
