@@ -6,4 +6,4 @@ setTimeout(function(){
   seed = (a*seed + b) % m;
   console.log(seed);
  },1000
-)
+);
