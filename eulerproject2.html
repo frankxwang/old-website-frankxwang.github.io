@@ -2,7 +2,16 @@
 <html>
 <body>
 <script>
-
+  var sum = 0;
+	var Phi = (1 + Math.sqrt(5))/2;
+	var phi = (1 - Math.sqrt(5))/2;
+	for(var i=2; i<=40; i++){
+			var thisNum = (Math.pow(Phi, i) - Math.pow(phi, i))/Math.sqrt(5);
+			if(thisNum.remainder(new BigInteger(2)) == new BigInteger(0)){
+				sum = sum.add(thisNum);
+			}
+		}
+		console.log(sum);
 </script>
 </body>
 </html>
