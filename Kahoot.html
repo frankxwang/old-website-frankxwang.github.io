@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kahoot DDoS/player</title>
+  </head>
+  <body>
+    <iframe id="frame" name="frame" src="https://kahoot.it"></iframe>
+    <!-- inputSession -->
+    <script type = "text/javascript"
+    src = "http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+   <script type = "text/javascript">
+      var i = document.getElementById("iframe1");
+      var d = i.iframe.contentDocument || i.contentWindow.document;
+      var f = d.document.getElementById("inputSession");
+      f.submit();
+      while(true){
+        function(){
+          $("#frame").attr("src", "https://www.google.com/");
+        }
+      }
+   </script>
+  </body>
